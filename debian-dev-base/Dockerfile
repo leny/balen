@@ -3,7 +3,7 @@
 FROM debian:wheezy
 
 # basic tools
-RUN apt-get update && apt-get install -y software-properties-common python-software-properties curl wget git htop unzip vim telnet nano && apt-get clean && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y software-properties-common python-software-properties curl wget git htop unzip vim telnet nano make build-essential g++ && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # bash config & settings
 COPY ./bashrc /root/tmp_bashrc
