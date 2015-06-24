@@ -20,3 +20,7 @@ Basic nginx config & host.
 ### leny/debian-dev-mariadb
 
 Basic mariadb server.
+
+### leny/debian-dev-mailcatcher
+
+Mailcatcher container.
