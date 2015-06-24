@@ -28,3 +28,7 @@ Mailcatcher container.
 ### leny/debian-dev-mongodb
 
 Basic mongodb server.
+
+### leny/debian-dev-nodejs
+
+Node.js container.
