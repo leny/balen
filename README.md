@@ -24,3 +24,7 @@ Basic mariadb server.
 ### leny/debian-dev-mailcatcher
 
 Mailcatcher container.
+
+### leny/debian-dev-mongodb
+
+Basic mongodb server.
