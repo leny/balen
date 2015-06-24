@@ -13,4 +13,6 @@ Probably nothing really useful here, just my docker containers. Highly inspired 
 
 Contains some utils and shell env.
 
-###
+### leny/debian-dev-nginx
+
+Basic nginx config & host.
