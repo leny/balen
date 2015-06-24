@@ -1,6 +1,7 @@
 # debian-dev-base: debian base machine for dev purposes
 # base image: debian (wheezy)
 FROM debian:wheezy
+MAINTAINER Pierre-Antoine "leny" Delnatte <info@flatland.be>
 
 # basic tools
 RUN apt-get update && apt-get install -y software-properties-common python-software-properties curl wget git htop unzip vim telnet nano make build-essential g++ && apt-get clean && rm -rf /var/lib/apt/lists/*

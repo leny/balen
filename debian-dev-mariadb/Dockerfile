@@ -1,5 +1,6 @@
 # debian-dev-mariadb: mariadb container
 FROM leny/debian-dev-base
+MAINTAINER Pierre-Antoine "leny" Delnatte <info@flatland.be>
 
 # install
 RUN apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 0xcbcb082a1bb943db
