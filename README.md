@@ -16,3 +16,7 @@ Contains some utils and shell env.
 ### leny/debian-dev-nginx
 
 Basic nginx config & host.
+
+### leny/debian-dev-mariadb
+
+Basic mariadb server.
