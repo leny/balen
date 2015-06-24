@@ -32,3 +32,7 @@ Basic mongodb server.
 ### leny/debian-dev-nodejs
 
 Node.js container.
+
+### leny/debian-dev-redis
+
+Basic redis server.
